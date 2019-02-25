@@ -1,0 +1,46 @@
+.Hotel {
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 700px;
+}
+
+.Hotel__image-wrapper {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.Hotel__image {
+  display: block;
+  margin: 10px auto 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.Hotel__reviews-wrapper {
+  display: block;
+}
+
+.Hotel__review {
+  margin: 0 10px 20px 0;
+}
+
+.Hotel__book-form__input-wrapper {
+  display: block;
+  margin: 0 0 15px;
+}
+
+.Hotel__book-form__input {
+  margin: 0 0 0 10px;
+}
+
+.Hotel__back-link {
+  display: block;
+  margin: 20px 0 0;
+}
+
+@media (min-width: 500px) {
+  .Hotel__reviews-wrapper {
+    display: flex;
+  }
+}

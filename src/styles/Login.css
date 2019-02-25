@@ -1,0 +1,35 @@
+.Login {
+  display: block;
+  margin: 20px auto 0;
+  padding: 20px;
+  max-width: 450px;
+  background: #eee;
+  text-align: center;
+}
+
+.Login__form-input-wrapper {
+  display: block;
+  margin: 5px auto 10px;
+  width:80%;
+  text-align: left;
+}
+
+.Login__form-input-wrapper label {
+  display: block;
+  margin: 0 0 5px;
+  width: 100%;
+}
+
+.Login__form-input-wrapper input {
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: white;
+  font-size: 14px;
+}
+
+.Login__button {
+  margin: 20px auto 10px;
+}
